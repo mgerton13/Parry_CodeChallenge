@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto;
+
+
+message Chunk {
+    // index of this chunk
+    int32 Index = 1;
+    // raw data for this chunk
+    bytes Data = 2;
+}
